@@ -1,0 +1,128 @@
+/*text styles*/
+body {
+    font-family :   Verdana, Arial, Sans-serif;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin: 3px;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+.math {
+    font-family :   Verdana, Arial, Sans-serif;
+    font-style: italic;
+}
+
+/*layout*/
+header {
+    clear: both;
+}
+
+section {
+    overflow:hidden;
+    width: 100%;
+    padding:        10px;
+    margin: 10px 0px; 
+    word-wrap: break-word;
+}
+
+figure {
+    float: left;
+    height: auto;
+    width: auto;
+    margin: 5px;
+}
+
+[class*='col-'] {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+
+/*colors*/
+body { color: #352A25; }
+body { background-color: #D1C5B4; }
+section { background-color: #D8B589;}
+footer {color:          #999999;}
+p a {background-color: #D1C5B4;}
+p a {border-color: #867F7C;}
+p a:link, p a:visited, p a:hover, p a:active  { color:   #1d3038; }
+h2 {color: #000000;}
+h3 {color: #202020;}
+#some-menu a {background-color: #D1C5B4;}
+#some-menu a:link, 
+#some-menu a:visited, 
+#some-menu a:hover, 
+#some-menu a:active  { color:   #1d3038; }
+#blog-posts ul a {background-color: #D1C5B4;}
+#blog-posts ul a:link, 
+#blog-posts ul a:visited, 
+#blog-posts ul a:hover, 
+#blog-posts ul a:active  { color:   #1d3038; }
+
+/*cool expanding effect*/
+a img {
+    transition: border-radius 0.5s ease-in-out;                
+}
+a img {
+    border-radius: 38px;
+}
+a img:hover {
+    border-radius: 0px;
+}
+
+/*text links style*/
+p a {
+    white-space: nowrap;
+    padding: 0px 4px;
+}
+
+p a:link, p a:visited, p a:hover, p a:active {
+    text-decoration: none;
+}
+
+/*blog*/
+#blog-posts ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/*font awesome icons*/
+.fa {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+/*social media buttons*/
+#some-menu {
+    text-align: center;
+}
+
+#some-menu a {
+    border-radius: 38px;
+} 
+
+/*flicr gallery*/
+.gallery,#flickr_gallery {
+    float: left;
+    width: 100%;
+}
+.flickr_badge_image,.art_image {
+    float:          left;
+    margin:         5px;
+    padding:        0px;
+}
